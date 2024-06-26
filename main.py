@@ -7,7 +7,15 @@ def main():
     """
     Make your code here
     """
-
+    if (number < 50):
+        range = 1
+    elif (50 <= number < 100):
+        range = 2
+    else:
+        range = 3
+         
+    
+    
     print(f'Range is {range}')
     ########################################
     # Do not delete the return statement
